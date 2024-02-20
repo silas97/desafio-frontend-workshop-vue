@@ -12,7 +12,7 @@ Certifique-se de ter os seguintes pré-requisitos instalados em sua máquina:
 1. **Clone o Repositório:**
    ```bash
    git clone https://github.com/silas97/desafio-frontend-workshop-vue.git
-   cd frontend
+   cd desafio-frontend-workshop-vue
    ```
 
 2. **Instalação de Dependências:**
