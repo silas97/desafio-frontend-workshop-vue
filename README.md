@@ -1,35 +1,38 @@
-# frontend
+# Documentação de Instalação do Frontend - Desafio 2a - Etapa Frontend
 
-This template should help get you started developing with Vue 3 in Vite.
+## Pré-requisitos
 
-## Recommended IDE Setup
+Certifique-se de ter os seguintes pré-requisitos instalados em sua máquina:
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Node.js
+- npm (Node Package Manager)
 
-## Customize configuration
+## Instalação e Execução Local
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+1. **Clone o Repositório:**
+   ```bash
+   git clone https://github.com/silas97/desafio-frontend-workshop-vue.git
+   cd frontend
+   ```
 
-## Project Setup
+2. **Instalação de Dependências:**
+   ```bash
+   npm install
+   ```
 
-```sh
-npm install
-```
+3. **Compilação e Atualização Dinâmica para Desenvolvimento:**
+   ```bash
+   npm run dev
+   ```
 
-### Compile and Hot-Reload for Development
+4. **Compilação e Minificação para Produção:**
+   ```bash
+   npm run build
+   ```
 
-```sh
-npm run dev
-```
+5. **Verificação com ESLint:**
+   ```bash
+   npm run lint
+   ```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+Agora, o projeto frontend está instalado e pronto para execução local. Você pode utilizar os comandos acima para compilar, desenvolver, construir a versão de produção e realizar verificações de estilo de código. Certifique-se de seguir os passos acima para garantir uma instalação bem-sucedida.
